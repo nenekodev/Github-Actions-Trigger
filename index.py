@@ -20,7 +20,7 @@ def run():
     for x in range(len(workflowList)):
         if workflowList[x]['conclusion'] == 'success':
             completedNum = workflowList[x]['id']
-            deleteUrl = 'https://api.github.com/repos/' + os.environ.get('GITHUB_USER') + '/' + os.environ.get('GITHUB_REPO') + '/actions/runs' + str(completedNum)
+            deleteUrl = 'https://api.github.com/repos/' + os.environ.get('GITHUB_USER') + '/' + os.environ.get('GITHUB_REPO') + '/actions/runs/' + str(completedNum)
             requests.delete(
                 deleteUrl,
                 headers = header)
