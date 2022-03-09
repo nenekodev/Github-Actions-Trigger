@@ -12,7 +12,7 @@ Use Tencent Cloud SCF for a external trigger of Github Actions’ workflows
 
 ## System Requirements
 
-- Python 3.6
+- Python 3.6 +
 
 ## Usage
 
@@ -24,7 +24,7 @@ Use Tencent Cloud SCF for a external trigger of Github Actions’ workflows
 
 1. Sign up and login to [Tencent Cloud SCF Console](https://console.cloud.tencent.com/scf/) 
 2. Click `函数服务` which is located at left bar, Then click `新建`.
-3. Click `从头开始`, select `运行环境` as `Python 3.6`. You can change your SCF name at `函数名称`.
+3. Click `从头开始`, select `运行环境` as `Python 3.6` or higher. You can change your SCF name at `函数名称`.
 4. Download the code from [Releases](https://github.com/nenekodev/Github-Actions-Trigger/releases), then select `提交方法` as `本地上传 zip 包`. Upload the downloaded zip by click `上传` button. Or you can copy and paste the code into the editor from `index.py`.
 5. Click `高级配置`, Set your environment variables in `环境变量`:
 
