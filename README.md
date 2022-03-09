@@ -36,7 +36,7 @@ Use Tencent Cloud SCF for a external trigger of Github Actions’ workflows
   |   GITHUB_TOKEN   |Get it from [here](https://github.com/settings/tokens)<br>Name: GITHUB_TOKEN<br>Scopes: repo, workflow, admin:repo_hook|
 
 6. (Optional）set `初始化超时时间` to 300, set `执行超时时间` to 900.
-7. Click `触发器配置`, click `自定义创建`, choose your `触发周期` or select `自定义触发周期` and type cron expression at `Cron 表达式`. Timezone is UTC +8 (Beijing, Shanghai, Chongqing, Urumuqi.
+7. Click `触发器配置`, click `自定义创建`, choose your `触发周期` or select `自定义触发周期` and type cron expression at `Cron 表达式`. Timezone is UTC +8 (Beijing, Shanghai, Chongqing, Urumuqi).
 8. Then click `完成`.
 
 ## License
