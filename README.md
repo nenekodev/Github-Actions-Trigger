@@ -2,6 +2,8 @@
 
 Use Tencent Cloud SCF for a external trigger of Github Actions’ workflows
 
+Inspired by https://zhuanlan.zhihu.com/p/379365305 [zh-SC]
+
 ## Features
 
 - Automatically starts your Github workflows **ON TIME** and **NO TIME LIMIT**
