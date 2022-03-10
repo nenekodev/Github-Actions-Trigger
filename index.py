@@ -3,7 +3,7 @@ import json
 import os
 
 def run():
-    payload = json.dumps({"ref": "master"})
+    payload = json.dumps({"ref": os.environ.get('GITHUB_BRANCH')})
     header = {'Authorization': 'token ' + os.environ.get('GITHUB_TOKEN'),
                 "Accept": "application/vnd.github.v3+json"}
     requests.post(

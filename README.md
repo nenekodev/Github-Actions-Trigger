@@ -30,8 +30,9 @@ Use Tencent Cloud SCF for a external trigger of Github Actions’ workflows
 
   |        key       |                                                         value                                                         |
   |------------------|-----------------------------------------------------------------------------------------------------------------------|
-  |   GITHUB_USER    |                                            Your username (e.g. nenekodev)                                             |
-  |   GITHUB_REPO    |                                       Your repo name (e.g. asoul-wecom-notifier)                                      |
+  |    GITHUB_USER   |                                            Your username (e.g. nenekodev)                                             |
+  |    GITHUB_REPO   |                                       Your repo name (e.g. A-SOUL-Wecom-Notifier)                                     |
+  |   GITHUB_BRANCH  |                                               Your repo branch (e.g. main)                                            |
   |GITHUB_ACTION_FILE|                                   Your workflow config (e.g. A-SOUL_BOT-RunOnce.yml)                                  |
   |   GITHUB_TOKEN   |Get it from [here](https://github.com/settings/tokens)<br>Name: GITHUB_TOKEN<br>Scopes: repo, workflow, admin:repo_hook|
 
